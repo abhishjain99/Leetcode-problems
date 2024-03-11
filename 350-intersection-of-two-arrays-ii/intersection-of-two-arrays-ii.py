@@ -10,3 +10,13 @@ class Solution:
                 nums[num] -= 1
                 if not nums[num]: del nums[num]
         return ans
+
+        # ans = []
+        # counter1 = Counter(nums1)
+        # counter2 = Counter(nums2)
+
+        # for key in counter1.keys():
+        #     if key in counter2:
+        #         ans.extend([key] * min(counter1[key], counter2[key]))
+
+        # return ans
