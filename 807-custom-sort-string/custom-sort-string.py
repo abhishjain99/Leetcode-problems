@@ -8,7 +8,7 @@ class Solution:
             if o in freq:
                 ans += o * freq[o]
                 del freq[o]
-        print(freq)
+
         for o in freq:
             ans += o * freq[o]
         return ans
